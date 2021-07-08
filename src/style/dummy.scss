@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@mixin borderAndMargin {
+    border: 1px solid black;
+    margin: 0.5%;
+}
+
+.dummy-container {
+    padding: 15% 0 0% 0;
+    height: 760px;
+    width: 630px;
+    transform: scaleX(1);
+    background-color: rgb(40,110,250);
+    .dummy-header {
+        text-shadow: 0 1px 2px rgb(20,20,20);
+        margin: 10% auto 0 auto;
+        height: 38px;
+        width: 340px;
+        color: rgb(255,255,255);
+        font-family: Roboto;
+        font-size: 32px;
+        font-weight: bold;
+        letter-spacing: 0.26px;
+        line-height: 38px;
+        text-align: center;
+    }
+    p {
+        text-shadow: 0 1px 2px rgb(30,30,30);
+        margin: 10% auto 0 auto;
+        height: 149px;
+        width: 370px;
+        color: rgb(255,255,255);
+        font-size: 18px;
+        text-align: left;
+        letter-spacing: 0.26px;
+        line-height: 30px;
+        font-family: 'Roboto', sans-serif;
+    }
+}

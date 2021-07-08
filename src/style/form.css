@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.form-container {
+  height: 518px;
+  width: 480px;
+  margin: 10% auto 0 auto;
+}
+
+.form-container h1 {
+  margin: 0;
+  height: 38px;
+  width: 480px;
+  color: #333333;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 0.26px;
+  line-height: 38px;
+}
+
+.form-container .sign-in-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-container .sign-in-container p {
+  margin: 15% 0 0 0;
+  height: 30px;
+  width: 233px;
+  color: #333333;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.26px;
+  line-height: 30px;
+}
+
+.form-container .sign-in-container a {
+  margin: 15% 0 0 2%;
+  text-decoration: none;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 30px;
+  width: 233px;
+  color: #286efa;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.26px;
+  line-height: 30px;
+}
+
+.form-container .sign-in-container a:hover {
+  opacity: 80%;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+.form-container .form-inner-container {
+  border: 0px solid black;
+  margin: 10% 0 auto 0;
+}
+
+.form-container .form-inner-container .form-content-container {
+  border: 0px solid black;
+  margin: 0 auto;
+}
+
+.form-container .form-inner-container .form-content-container input {
+  border: 1px solid black;
+  margin: 2% auto 2% auto;
+  height: 50px;
+  width: 465px;
+  padding: 0;
+  padding: 0 0 0 3%;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-container .form-inner-container .form-content-container input:hover {
+  -webkit-animation: input 30ms linear;
+          animation: input 30ms linear;
+}
+
+@-webkit-keyframes input {
+  from {
+    opacity: 0%;
+  }
+}
+
+@keyframes input {
+  from {
+    opacity: 0%;
+  }
+}
+
+.form-container .form-inner-container .form-content-container select {
+  height: 50px;
+  width: 480px;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  padding: 0 0 0 3%;
+  cursor: pointer;
+}
+
+.form-container .form-inner-container .form-content-container select option {
+  font-family: 'Roboto', sans-serif;
+  background-color: white;
+}
+
+.form-container .form-inner-container .form-content-container select:hover {
+  -webkit-animation: select 150ms linear;
+          animation: select 150ms linear;
+}
+
+@-webkit-keyframes select {
+  from {
+    opacity: 0%;
+  }
+}
+
+@keyframes select {
+  from {
+    opacity: 0%;
+  }
+}
+
+.form-container .form-inner-container .form-content-container p {
+  padding: 0;
+  margin: 0;
+}
+
+.form-container .submit-container {
+  margin: 7% 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form-container .submit-container button {
+  cursor: pointer;
+  border: 1px solid black;
+  background: #288cfa;
+  border-radius: 4px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: white;
+  text-shadow: -1px 1px 3px #333333;
+  text-align: center;
+  height: 50px;
+  width: 480px;
+  -webkit-box-shadow: 0px 3px 3px #333333;
+          box-shadow: 0px 3px 3px #333333;
+  font-family: 'Roboto', sans-serif;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+.form-container .submit-container button:hover {
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+  -webkit-animation: btn 220ms linear;
+          animation: btn 220ms linear;
+  -webkit-box-shadow: 1000px 0 5px #28befa inset, 0px 0px 3px #333333;
+          box-shadow: 1000px 0 5px #28befa inset, 0px 0px 3px #333333;
+}
+
+@-webkit-keyframes btn {
+  0% {
+    -webkit-box-shadow: 0px 0 5px #288cfa inset, 0px 3px 3px #333333;
+            box-shadow: 0px 0 5px #288cfa inset, 0px 3px 3px #333333;
+  }
+  100% {
+    -webkit-box-shadow: 500px 0 5px #28befa inset, 0px 0px 3px #333333;
+            box-shadow: 500px 0 5px #28befa inset, 0px 0px 3px #333333;
+  }
+}
+
+@keyframes btn {
+  0% {
+    -webkit-box-shadow: 0px 0 5px #288cfa inset, 0px 3px 3px #333333;
+            box-shadow: 0px 0 5px #288cfa inset, 0px 3px 3px #333333;
+  }
+  100% {
+    -webkit-box-shadow: 500px 0 5px #28befa inset, 0px 0px 3px #333333;
+            box-shadow: 500px 0 5px #28befa inset, 0px 0px 3px #333333;
+  }
+}
+
+.form-container .submit-container button::before {
+  content: "Next";
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+.form-container .submit-container button:hover::before {
+  content: "Go!";
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+.form-container .policy-container p {
+  height: 50px;
+  width: 480px;
+  color: #286efa;
+  color: #333333;
+  font-family: Roboto;
+  font-weight: bold;
+  letter-spacing: 0.26px;
+  line-height: 25px;
+}
+
+.form-container .policy-container a {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 50px;
+  width: 480px;
+  color: #286efa;
+  font-family: Roboto;
+  font-weight: bold;
+  letter-spacing: 0.26px;
+  line-height: 25px;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+.form-container .policy-container a:hover {
+  opacity: 80%;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+/*# sourceMappingURL=form.css.map */

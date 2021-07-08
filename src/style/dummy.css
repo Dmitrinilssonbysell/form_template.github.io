@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.dummy-container {
+  padding: 15% 0 0% 0;
+  height: 760px;
+  width: 630px;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  background-color: #286efa;
+}
+
+.dummy-container .dummy-header {
+  text-shadow: 0 1px 2px #141414;
+  margin: 10% auto 0 auto;
+  height: 38px;
+  width: 340px;
+  color: white;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 0.26px;
+  line-height: 38px;
+  text-align: center;
+}
+
+.dummy-container p {
+  text-shadow: 0 1px 2px #1e1e1e;
+  margin: 10% auto 0 auto;
+  height: 149px;
+  width: 370px;
+  color: white;
+  font-size: 18px;
+  text-align: left;
+  letter-spacing: 0.26px;
+  line-height: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+/*# sourceMappingURL=dummy.css.map */

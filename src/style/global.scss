@@ -1,0 +1,15 @@
+@mixin borderAndMargin {
+    border: 1px solid black;
+    margin: 0.5%;
+}
+
+body {
+    background: rgb(30,30,30);
+    margin: 0 5%;
+}
+
+.app-container {
+    background: white;
+    display: flex;
+    justify-content: center;
+}
